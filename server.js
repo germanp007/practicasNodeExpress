@@ -43,7 +43,7 @@ server.delete("/api/products/:productId", (req, res) => {
   const productId = parseInt(req.params.productId);
 
   const productIndex = productList.findIndex((ele) => ele.id === productId);
-
+// Si no queremos mutar el Array principal podriamos usar Filter pero la variable seria Let no const
   if (productIndex !== -1) {
     productList.splice(productIndex, 1); // Eliminar el producto de la lista.
     res.json({ message: "Product deleted" });
