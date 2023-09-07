@@ -16,8 +16,10 @@ server.get("/api/products/:id", (req, res) => {
 });
 
 server.post("/api/products", (req, res) => {
+  let { title, description, code, price, status, stock, category, imagen } =
+    req.body;
 
-  let {title, description, code, price, status, stock, category, thumbnails} = req.body;
+  const imagenes = [...thumbnails, imagen];
   let newProduct = {
     id: productList.length > 0 ? productList[productList.length - 1].id + 1 : 1,
     title,
@@ -27,7 +29,7 @@ server.post("/api/products", (req, res) => {
     status,
     stock,
     category,
-    thumbnails: [...thumbnails]
+    thumbnails: imagenes,
   };
   productList.push(newProduct);
   res.json({ message: "Product added" });
@@ -52,7 +54,7 @@ server.delete("/api/products/:productId", (req, res) => {
   const productId = parseInt(req.params.productId);
 
   const productIndex = productList.findIndex((ele) => ele.id === productId);
-// Si no queremos mutar el Array principal podriamos usar Filter pero la variable seria Let no const
+  // Si no queremos mutar el Array principal podriamos usar Filter pero la variable seria Let no const
   if (productIndex !== -1) {
     productList.splice(productIndex, 1); // Eliminar el producto de la lista.
     res.json({ message: "Product deleted" });
