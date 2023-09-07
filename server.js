@@ -2,7 +2,7 @@ import express from "express";
 
 const server = express();
 const PORT = 8080;
-const productList = [];
+let productList = [];
 
 server.use(express.json());
 
@@ -16,9 +16,18 @@ server.get("/api/products/:id", (req, res) => {
 });
 
 server.post("/api/products", (req, res) => {
+
+  let {title, description, code, price, status, stock, category, thumbnails} = req.body;
   let newProduct = {
     id: productList.length > 0 ? productList[productList.length - 1].id + 1 : 1,
-    ...req.body,
+    title,
+    description,
+    code,
+    price,
+    status,
+    stock,
+    category,
+    thumbnails: [...thumbnails]
   };
   productList.push(newProduct);
   res.json({ message: "Product added" });
@@ -51,6 +60,17 @@ server.delete("/api/products/:productId", (req, res) => {
     res.status(404).json({ message: "Product not found" });
   }
 });
+// server.delete("/api/products/:userId", (req, res) => {
+//   const userId = parseInt(req.params.userId);
+//   const userIndex = productList.findIndex((u) => u.id === userId);
+//   if (userIndex >= 0) {
+//     const newUsers = productList.filter((u) => u.id !== userId);
+//     productList = newUsers;
+//     res.json({ message: "usuario eliminado" });
+//   } else {
+//     res.status(404).json({ message: "El usuario no existe" });
+//   }
+// });
 
 server.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
