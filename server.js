@@ -16,12 +16,16 @@ server.get("/api/products/:id", (req, res) => {
 });
 
 server.post("/api/products", (req, res) => {
-  let { title, description, code, price, status, stock, category, imagen } =
+  let { title, description, code, price, status, stock, category, thumbnails } =
     req.body;
 
  if(!title || !description || !code || !price || !status || !stock || !category){
    res.send("Se deben llenar todos los campos")
  } else {
+   let images = []
+   if(thumbnails) {
+     images.push(thumbnails)
+   }
     let newProduct = {
     id: productList.length > 0 ? productList[productList.length - 1].id + 1 : 1,
     title,
@@ -31,7 +35,7 @@ server.post("/api/products", (req, res) => {
     status,
     stock,
     category,
-    thumbnails: imagenes,
+    thumbnails: images
   };
    
  }
