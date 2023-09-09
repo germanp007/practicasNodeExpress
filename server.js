@@ -19,8 +19,10 @@ server.post("/api/products", (req, res) => {
   let { title, description, code, price, status, stock, category, imagen } =
     req.body;
 
-  const imagenes = [...thumbnails, imagen];
-  let newProduct = {
+ if(!title || !description || !code || !price || !status || !stock || !category){
+   res.send("Se deben llenar todos los campos")
+ } else {
+    let newProduct = {
     id: productList.length > 0 ? productList[productList.length - 1].id + 1 : 1,
     title,
     description,
@@ -31,6 +33,9 @@ server.post("/api/products", (req, res) => {
     category,
     thumbnails: imagenes,
   };
+   
+ }
+
   productList.push(newProduct);
   res.json({ message: "Product added" });
 });
