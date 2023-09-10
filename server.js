@@ -24,7 +24,7 @@ server.post("/api/products", (req, res) => {
  } else {
    let images = []
    if(thumbnails) {
-     images.push(thumbnails)
+     images.push(...thumbnails)
    }
     let newProduct = {
     id: productList.length > 0 ? productList[productList.length - 1].id + 1 : 1,
