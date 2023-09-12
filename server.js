@@ -21,7 +21,7 @@ server.post("/api/products", (req, res) => {
 
  if(!title || !description || !code || !price || !status || !stock || !category){
    res.send("Se deben llenar todos los campos")
- } else {
+ } 
    let images = []
    if(thumbnails) {
      images.push(...thumbnails)
@@ -37,8 +37,6 @@ server.post("/api/products", (req, res) => {
     category,
     thumbnails: images
   };
-   
- }
 
   productList.push(newProduct);
   res.json({ message: "Product added" });
