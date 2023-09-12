@@ -69,17 +69,6 @@ server.delete("/api/products/:productId", (req, res) => {
     res.status(404).json({ message: "Product not found" });
   }
 });
-// server.delete("/api/products/:userId", (req, res) => {
-//   const userId = parseInt(req.params.userId);
-//   const userIndex = productList.findIndex((u) => u.id === userId);
-//   if (userIndex >= 0) {
-//     const newUsers = productList.filter((u) => u.id !== userId);
-//     productList = newUsers;
-//     res.json({ message: "usuario eliminado" });
-//   } else {
-//     res.status(404).json({ message: "El usuario no existe" });
-//   }
-// });
 
 server.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
