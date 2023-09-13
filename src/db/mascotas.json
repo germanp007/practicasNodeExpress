@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "benedetti",
+    "age": 3,
+    "type": "gato"
+  },
+  {
+    "id": 2,
+    "name": "rintintin",
+    "age": 3,
+    "type": "perro"
+  },
+  {
+    "id": 3,
+    "name": "bondiola",
+    "age": 4,
+    "type": "perro"
+  },
+  {
+    "id": 4,
+    "name": "tarzan",
+    "age": 1,
+    "type": "iguana"
+  },
+  {
+    "id": 5,
+    "name": "lazaro",
+    "age": 1,
+    "type": "hamster"
+  },
+  {
+    "id": 6,
+    "name": "atila",
+    "age": 2,
+    "type": "serpiente"
+  }
+]
