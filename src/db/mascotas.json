@@ -157,5 +157,19 @@
     "age": "tryr",
     "type": "human",
     "image": "asdfg-WhatsApp Image 2022-10-10 at 12.06.18.jpeg"
+  },
+  {
+    "id": 27,
+    "name": "asdfg",
+    "age": "tryr",
+    "type": "human",
+    "image": "asdfg-WhatsApp Image 2022-10-10 at 12.06.18.jpeg"
+  },
+  {
+    "id": 28,
+    "name": "nati",
+    "age": "4",
+    "type": "perro",
+    "image": "nati-08fc3ab8-6ab7-4ab8-832d-b8b075cc46a2.jpg"
   }
 ]
