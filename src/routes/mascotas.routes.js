@@ -8,8 +8,8 @@ const mascotas = JSON.parse(
   fs.readFileSync(path.join(__dirname, "/db/mascotas.json"), "utf-8")
 );
 
-router.use(express.json());
-router.use(express.urlencoded({ extended: true }));
+// router.use(express.json());
+// router.use(express.urlencoded({ extended: true }));
 
 router.get("/", (req, res) => {
   const limit = +req.query.limit;
@@ -68,17 +68,29 @@ router.put("/:pid", (req, res) => {
       ...mascotas[mascota],
       ...body,
     };
+  } else {
+    res.status(503).json({ message: "No se encontró la mascota" });
   }
   fs.writeFileSync(
     path.join(__dirname, "/db/mascotas.json"),
     JSON.stringify(mascotas, null, 2)
   );
-
-  res.json({ message: "METHOD PUT" });
+  res.json({ message: "Mascota modificada correctamente" });
 });
 
-router.delete("/", (req, res) => {
-  res.json({ message: "METHOD DELETE" });
+router.delete("/:pid", (req, res) => {
+  const pid = +req.params.pid;
+  const mascota = mascotas.findIndex((ele) => ele.id === pid);
+  if (mascota !== -1) {
+    mascotas.splice(mascota, 1);
+    fs.writeFileSync(
+      path.join(__dirname, "/db/mascotas.json"),
+      JSON.stringify(mascotas, null, 2)
+    );
+    res.json({ message: "La mascota fue borrada" });
+  } else {
+    res.json({ message: "La mascota con ese ID no se encontro" });
+  }
 });
 
 export { router as petRouter };

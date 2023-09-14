@@ -1,13 +1,13 @@
 [
   {
     "id": 1,
-    "name": "benedetti",
+    "name": "gulliverd",
     "age": 3,
     "type": "gato"
   },
   {
     "id": 2,
-    "name": "rintintin",
+    "name": "gulliverd",
     "age": 3,
     "type": "perro"
   },
@@ -34,5 +34,41 @@
     "name": "atila",
     "age": 2,
     "type": "serpiente"
+  },
+  {
+    "id": 7,
+    "name": "firulais",
+    "age": 2,
+    "type": "perro"
+  },
+  {
+    "id": 8,
+    "name": "danco",
+    "age": 1,
+    "type": "perro"
+  },
+  {
+    "id": 9,
+    "name": "tomas",
+    "age": 1,
+    "type": "gato"
+  },
+  {
+    "id": 10,
+    "name": "trata",
+    "age": 3,
+    "type": "perro"
+  },
+  {
+    "id": 11,
+    "name": "ramiro",
+    "age": "3",
+    "type": "gato"
+  },
+  {
+    "id": 12,
+    "name": "fedel",
+    "age": "2",
+    "type": "raton"
   }
 ]
