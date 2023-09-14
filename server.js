@@ -5,7 +5,7 @@ const PORT = 8080;
 let productList = [];
 
 server.use(express.json());
-
+app.use(express.static(path.join(__dirname, "/public")));
 server.get("/api/products", (req, res) => {
   res.json({ data: productList });
 });
@@ -19,14 +19,22 @@ server.post("/api/products", (req, res) => {
   let { title, description, code, price, status, stock, category, thumbnails } =
     req.body;
 
- if(!title || !description || !code || !price || !status || !stock || !category){
-   res.send("Se deben llenar todos los campos")
- } 
-   let images = []
-   if(thumbnails) {
-     images.push(...thumbnails)
-   }
-    let newProduct = {
+  if (
+    !title ||
+    !description ||
+    !code ||
+    !price ||
+    !status ||
+    !stock ||
+    !category
+  ) {
+    res.send("Se deben llenar todos los campos");
+  }
+  let images = [];
+  if (thumbnails) {
+    images.push(...thumbnails);
+  }
+  let newProduct = {
     id: productList.length > 0 ? productList[productList.length - 1].id + 1 : 1,
     title,
     description,
@@ -35,7 +43,7 @@ server.post("/api/products", (req, res) => {
     status,
     stock,
     category,
-    thumbnails: images
+    thumbnails: images,
   };
 
   productList.push(newProduct);

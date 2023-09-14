@@ -70,5 +70,92 @@
     "name": "fedel",
     "age": "2",
     "type": "raton"
+  },
+  {
+    "id": 13,
+    "name": "valen",
+    "age": "2",
+    "type": "perro"
+  },
+  {
+    "id": 14,
+    "name": "miel",
+    "age": "1",
+    "type": "perro"
+  },
+  {
+    "id": 15,
+    "name": "luna",
+    "age": "4",
+    "type": "perro"
+  },
+  {
+    "id": 16,
+    "name": "sdaf",
+    "age": "sfsad",
+    "type": "asdf"
+  },
+  {
+    "id": 17,
+    "name": "German Pinto",
+    "age": "39",
+    "type": "human"
+  },
+  {
+    "id": 18,
+    "name": "sss",
+    "age": "dddd",
+    "type": "dd"
+  },
+  {
+    "id": 19,
+    "name": "fsgg",
+    "age": "gshd",
+    "type": "2"
+  },
+  {
+    "id": 20,
+    "name": "saasd",
+    "age": "55",
+    "type": "human",
+    "foto": "image-1.jpeg"
+  },
+  {
+    "id": 21,
+    "name": "toto",
+    "age": "45",
+    "type": "human"
+  },
+  {
+    "id": 22,
+    "name": "hfgj",
+    "age": "66",
+    "type": "human"
+  },
+  {
+    "id": 23,
+    "name": "ggg",
+    "age": "44",
+    "type": "human"
+  },
+  {
+    "id": 24,
+    "name": "sadf",
+    "age": "55",
+    "type": "human"
+  },
+  {
+    "id": 25,
+    "name": "fofo",
+    "age": "2",
+    "type": "pero",
+    "image": "fofo-image-1.jpeg"
+  },
+  {
+    "id": 26,
+    "name": "asdfg",
+    "age": "tryr",
+    "type": "human",
+    "image": "asdfg-WhatsApp Image 2022-10-10 at 12.06.18.jpeg"
   }
 ]

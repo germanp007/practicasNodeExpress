@@ -7,12 +7,14 @@
   </head>
   <body>
     <h1>Hola Mundo</h1>
-    <form method="post" action="/api/mascotas">
+    <form method="post" action="/api/mascotas" enctype="multipart/form-data">
       <input type="text" placeholder="Nombre de la mascota" name="name" />
       <br /><br />
       <input type="text" placeholder="Edad de la mascota" name="age" />
       <br /><br />
       <input type="text" placeholder="Tipo" name="type" />
+      <br /><br />
+      <input type="file" name="file" />
       <br /><br />
       <button>Crear Mascota</button>
     </form>

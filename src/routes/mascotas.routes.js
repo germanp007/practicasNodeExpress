@@ -1,7 +1,6 @@
 import { Router } from "express";
-import { __dirname } from "../utils.js";
+import { __dirname, uploader } from "../utils.js";
 import fs from "fs";
-import express from "express";
 import path from "path";
 const router = Router();
 const mascotas = JSON.parse(
@@ -36,26 +35,33 @@ router.get("/:pid", (req, res) => {
   }
 });
 
-router.post("/", (req, res) => {
+router.post("/", uploader.single("file"), (req, res) => {
   const { name, age, type } = req.body;
-
-  if (!name || !age || !type) {
-    res.status(404).json({ message: "Se deben llenar todos los campos" });
-  } else {
-    let newId = mascotas.length > 0 ? mascotas[mascotas.length - 1].id + 1 : 1;
-    let newPet = {
-      id: newId,
-      name,
-      age,
-      type,
-    };
-    mascotas.push(newPet);
-    fs.writeFileSync(
-      path.join(__dirname, "/db/mascotas.json"),
-      JSON.stringify(mascotas, null, 2)
-    );
+  const file = req.file;
+  console.log(file);
+  if (!name || !age || !type || !file) {
+    return res
+      .status(404)
+      .json({ message: "Se deben llenar todos los campos y subir una imagen" });
   }
-  res.json({ message: "Mascota agregada con exito" });
+
+  let newId = mascotas.length > 0 ? mascotas[mascotas.length - 1].id + 1 : 1;
+
+  let newPet = {
+    id: newId,
+    name,
+    age,
+    type,
+    image: file.filename, // Añade el nombre del archivo al objeto
+  };
+
+  mascotas.push(newPet);
+  fs.writeFileSync(
+    path.join(__dirname, "/db/mascotas.json"),
+    JSON.stringify(mascotas, null, 2)
+  );
+
+  res.json({ message: "Mascota agregada correctamente" });
 });
 
 router.put("/:pid", (req, res) => {
