@@ -52,7 +52,7 @@ router.post("/", uploader.single("file"), (req, res) => {
     name,
     age,
     type,
-    image: file.filename, // Añade el nombre del archivo al objeto
+    image: file.filename,
   };
 
   mascotas.push(newPet);
@@ -87,12 +87,17 @@ router.put("/:pid", (req, res) => {
 router.delete("/:pid", (req, res) => {
   const pid = +req.params.pid;
   const mascota = mascotas.findIndex((ele) => ele.id === pid);
+
   if (mascota !== -1) {
+    const imagePath = mascotas[mascota].image;
+
     mascotas.splice(mascota, 1);
+    fs.unlinkSync(path.join(__dirname, `/public/images/${imagePath}`));
     fs.writeFileSync(
       path.join(__dirname, "/db/mascotas.json"),
       JSON.stringify(mascotas, null, 2)
     );
+
     res.json({ message: "La mascota fue borrada" });
   } else {
     res.json({ message: "La mascota con ese ID no se encontro" });

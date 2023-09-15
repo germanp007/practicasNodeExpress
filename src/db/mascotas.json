@@ -1,175 +1,51 @@
 [
   {
     "id": 1,
-    "name": "gulliverd",
-    "age": 3,
-    "type": "gato"
+    "name": "lazaro",
+    "age": "3",
+    "type": "perro",
+    "image": "lazaro-golden.jpg"
   },
   {
     "id": 2,
-    "name": "gulliverd",
-    "age": 3,
-    "type": "perro"
+    "name": "pancho",
+    "age": "1",
+    "type": "perro",
+    "image": "pancho-salchicha.jpg"
   },
   {
     "id": 3,
-    "name": "bondiola",
-    "age": 4,
-    "type": "perro"
-  },
-  {
-    "id": 4,
-    "name": "tarzan",
-    "age": 1,
-    "type": "iguana"
+    "name": "tini",
+    "age": "2",
+    "type": "gato",
+    "image": "tini-amargado.jpg"
   },
   {
     "id": 5,
-    "name": "lazaro",
-    "age": 1,
-    "type": "hamster"
+    "name": "cotufa",
+    "age": "1",
+    "type": "perro",
+    "image": "cotufa-caniche.jpg"
   },
   {
     "id": 6,
-    "name": "atila",
-    "age": 2,
-    "type": "serpiente"
+    "name": "michin",
+    "age": "1",
+    "type": "gato",
+    "image": "michin-gatito.jpg"
   },
   {
     "id": 7,
-    "name": "firulais",
-    "age": 2,
-    "type": "perro"
+    "name": "lady",
+    "age": "1",
+    "type": "gato",
+    "image": "lady-jugueton.jpg"
   },
   {
     "id": 8,
-    "name": "danco",
-    "age": 1,
-    "type": "perro"
-  },
-  {
-    "id": 9,
-    "name": "tomas",
-    "age": 1,
-    "type": "gato"
-  },
-  {
-    "id": 10,
-    "name": "trata",
-    "age": 3,
-    "type": "perro"
-  },
-  {
-    "id": 11,
-    "name": "ramiro",
-    "age": "3",
-    "type": "gato"
-  },
-  {
-    "id": 12,
-    "name": "fedel",
-    "age": "2",
-    "type": "raton"
-  },
-  {
-    "id": 13,
-    "name": "valen",
-    "age": "2",
-    "type": "perro"
-  },
-  {
-    "id": 14,
-    "name": "miel",
+    "name": "rosalia",
     "age": "1",
-    "type": "perro"
-  },
-  {
-    "id": 15,
-    "name": "luna",
-    "age": "4",
-    "type": "perro"
-  },
-  {
-    "id": 16,
-    "name": "sdaf",
-    "age": "sfsad",
-    "type": "asdf"
-  },
-  {
-    "id": 17,
-    "name": "German Pinto",
-    "age": "39",
-    "type": "human"
-  },
-  {
-    "id": 18,
-    "name": "sss",
-    "age": "dddd",
-    "type": "dd"
-  },
-  {
-    "id": 19,
-    "name": "fsgg",
-    "age": "gshd",
-    "type": "2"
-  },
-  {
-    "id": 20,
-    "name": "saasd",
-    "age": "55",
-    "type": "human",
-    "foto": "image-1.jpeg"
-  },
-  {
-    "id": 21,
-    "name": "toto",
-    "age": "45",
-    "type": "human"
-  },
-  {
-    "id": 22,
-    "name": "hfgj",
-    "age": "66",
-    "type": "human"
-  },
-  {
-    "id": 23,
-    "name": "ggg",
-    "age": "44",
-    "type": "human"
-  },
-  {
-    "id": 24,
-    "name": "sadf",
-    "age": "55",
-    "type": "human"
-  },
-  {
-    "id": 25,
-    "name": "fofo",
-    "age": "2",
-    "type": "pero",
-    "image": "fofo-image-1.jpeg"
-  },
-  {
-    "id": 26,
-    "name": "asdfg",
-    "age": "tryr",
-    "type": "human",
-    "image": "asdfg-WhatsApp Image 2022-10-10 at 12.06.18.jpeg"
-  },
-  {
-    "id": 27,
-    "name": "asdfg",
-    "age": "tryr",
-    "type": "human",
-    "image": "asdfg-WhatsApp Image 2022-10-10 at 12.06.18.jpeg"
-  },
-  {
-    "id": 28,
-    "name": "nati",
-    "age": "4",
     "type": "perro",
-    "image": "nati-08fc3ab8-6ab7-4ab8-832d-b8b075cc46a2.jpg"
+    "image": "rosalia-descarga.jpg"
   }
 ]
