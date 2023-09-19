@@ -26,10 +26,10 @@ router.get("/", (req, res) => {
 });
 
 router.get("/:pid", (req, res) => {
-  let pId = +req.params.pid;
-  let pet = mascotas.find((ele) => ele.id === pId);
+  let petId = Number(req.params.pid);
+  let pet = mascotas.find((ele) => ele.id === petId);
   if (pet) {
-    res.json({ data: pet });
+    res.send(data: pet);
   } else {
     res.status(404).json({ message: "La mascota con ese Id no existe" });
   }
