@@ -11,7 +11,7 @@ const mascotas = JSON.parse(
 // router.use(express.urlencoded({ extended: true }));
 
 router.get("/", (req, res) => {
-  const limit = +req.query.limit;
+  const limit = Number(req.query.limit);
   if (!isNaN(limit)) {
     let result;
     if (limit > mascotas.length) {
