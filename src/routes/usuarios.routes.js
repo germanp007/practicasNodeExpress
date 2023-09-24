@@ -15,4 +15,8 @@ router.get("/", (req, res) => {
   res.json({data: usuarios});
 });
 
+router.post("/", (req,res)=> {
+  const {name, lastName, adress, email} = req.body;
+})
+
 export { router as usersRouter };
