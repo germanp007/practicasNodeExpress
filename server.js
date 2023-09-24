@@ -28,7 +28,7 @@ server.post("/api/products", (req, res) => {
     !stock ||
     !category
   ) {
-    res.send("Se deben llenar todos los campos");
+    res.json({message: 'Debe ingresar todos los campos'});
   }
   let images = [];
   if (thumbnails) {
