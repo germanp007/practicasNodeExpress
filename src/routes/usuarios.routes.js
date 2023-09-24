@@ -8,12 +8,12 @@ const usuarios = JSON.parse(
   fs.readFileSync(path.join(__dirname, "/db/usuarios.json"), "utf-8")
 );
 
-console.log(typeof usuarios);
+
 router.use(express.json());
 
 router.get("/", (req, res) => {
-  const limit = req.query.limit;
-  if(limit){
+  const limit = parseInt(req.query.limit);
+  if(!isNaN(limit)){
     const limitedUser = usuarios.slice(0, limit);
     res.json({data: limitedUser})
   }else{
@@ -21,6 +21,11 @@ router.get("/", (req, res) => {
     
   }
 });
+router.get("/:id", (req,res)=>{
+  const userId = req.params.id;
+  const user = usuarios.find(ele => ele.id === userId);
+  res.json({data: user});
+})
 
 router.post("/", (req,res)=> {
   const {name, lastName, adress, email} = req.body;
@@ -41,7 +46,7 @@ router.post("/", (req,res)=> {
 })
 
 router.put("/:id", (req,res)=> {
-  const uId = req.params.id;
+  const uId = parseInt(req.params.id);
   const indexUser = usuarios.findIndex(ele => ele.id === uId);
   if(indexUser !== -1){
     const updatedUser = {
