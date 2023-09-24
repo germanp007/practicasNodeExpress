@@ -17,6 +17,10 @@ router.get("/", (req, res) => {
 
 router.post("/", (req,res)=> {
   const {name, lastName, adress, email} = req.body;
+
+  if(!name || !lastName || !adress || !email){
+    res.json({message: "Se deben llenar todos los campos"})
+  }
 })
 
 export { router as usersRouter };
