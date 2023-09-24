@@ -20,6 +20,14 @@ router.post("/", (req,res)=> {
 
   if(!name || !lastName || !adress || !email){
     res.json({message: "Se deben llenar todos los campos"})
+  } 
+  const newId = usuarios.length > 0 ? usuarios[usuarios.length - 1].id + 1 : 1;
+  const newUser = {
+    id: newId,
+    name,
+    lastName,
+    adress,
+    email
   }
 })
 
