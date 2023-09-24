@@ -36,6 +36,13 @@ router.post("/", (req,res)=> {
 router.put("/:id", (req,res)=> {
   const uId = req.params.id;
   const indexUser = usuarios.findIndex(ele => ele.id === uId);
+  if(indexUser){
+    const updatedUser = {
+      ...usuarios[indexUser],
+      ...req.body
+    };
+    usuarios[indexUser] = updatedUser;
+  }
 })
 
 export { router as usersRouter };
