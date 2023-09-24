@@ -35,6 +35,7 @@ router.post("/", (req,res)=> {
 
 router.put("/:id", (req,res)=> {
   const uId = req.params.id;
+  const indexUser = usuarios.findIndex(ele => ele.id === uId);
 })
 
 export { router as usersRouter };
