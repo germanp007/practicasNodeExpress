@@ -33,4 +33,8 @@ router.post("/", (req,res)=> {
   fs.writeFileSync(path.join(__dirname, "/db/usuarios.json"))
 })
 
+router.put("/:id", (req,res)=> {
+  const uId = req.params.id;
+})
+
 export { router as usersRouter };
