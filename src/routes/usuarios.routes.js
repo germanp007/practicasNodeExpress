@@ -12,7 +12,14 @@ console.log(typeof usuarios);
 router.use(express.json());
 
 router.get("/", (req, res) => {
+  const limit = req.query.limit;
+  if(limit){
+    const limitedUser = usuarios.slice(0, limit);
+    res.json({data: limitedUser})
+  }else{
   res.json({data: usuarios});
+    
+  }
 });
 
 router.post("/", (req,res)=> {
@@ -30,18 +37,21 @@ router.post("/", (req,res)=> {
     email
   }
   usuarios.push(newUser);
-  fs.writeFileSync(path.join(__dirname, "/db/usuarios.json"))
+  fs.writeFileSync(path.join(__dirname, "/db/usuarios.json"), usuarios)
 })
 
 router.put("/:id", (req,res)=> {
   const uId = req.params.id;
   const indexUser = usuarios.findIndex(ele => ele.id === uId);
-  if(indexUser){
+  if(indexUser !== -1){
     const updatedUser = {
       ...usuarios[indexUser],
       ...req.body
     };
     usuarios[indexUser] = updatedUser;
+    fs.writeFileSync(path.join(__dirname, "/db/usuarios.json"), usuarios)
+  } else {
+    res.json({message: "Usuario no encontrado"})
   }
 })
 
