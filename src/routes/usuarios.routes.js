@@ -58,6 +58,17 @@ router.put("/:id", (req,res)=> {
   } else {
     res.json({message: "Usuario no encontrado"})
   }
+});
+
+router.delete("/:id", (req,res)=>{
+  const userId = req.params.id;
+  const index = usuarios.findIndex(ele => ele.id === userId)
+  if(index !== -1){
+     usuarios.splice(index, 1);
+    res.json({message: "Usuario borrado con exito"})
+  }else{
+    res.json({message: "El usuario no se encontro"})
+  }
 })
 
 export { router as usersRouter };
