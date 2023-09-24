@@ -29,6 +29,8 @@ router.post("/", (req,res)=> {
     adress,
     email
   }
+  usuarios.push(newUser);
+  fs.writeFileSync(path.join(__dirname, "/db/usuarios.json"))
 })
 
 export { router as usersRouter };
