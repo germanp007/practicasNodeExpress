@@ -10,7 +10,7 @@ server.get("/api/products", (req, res) => {
   res.json({ data: productList });
 });
 server.get("/api/products/:id", (req, res) => {
-  const ID = +req.params.id;
+  const ID = parseint(req.params.id);
   const product = productList.find((ele) => ele.id === ID);
   res.json({ data: product });
 });
