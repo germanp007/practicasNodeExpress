@@ -12,7 +12,7 @@ console.log(typeof usuarios);
 router.use(express.json());
 
 router.get("/", (req, res) => {
-  res.json({ message: "METODO GET desde usuarios" });
+  res.json({data: usuarios});
 });
 
 export { router as usersRouter };
