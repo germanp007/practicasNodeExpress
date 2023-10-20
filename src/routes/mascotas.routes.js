@@ -85,7 +85,7 @@ router.put("/:pid", (req, res) => {
 });
 
 router.delete("/:pid", (req, res) => {
-  const pid = +req.params.pid;
+  const pid = parseInt(req.params.pid);
   const mascota = mascotas.findIndex((ele) => ele.id === pid);
 
   if (mascota !== -1) {
