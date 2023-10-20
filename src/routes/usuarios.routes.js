@@ -22,7 +22,7 @@ router.get("/", (req, res) => {
   }
 });
 router.get("/:id", (req,res)=>{
-  const userId = req.params.id;
+  const userId = parseInt(req.params.id);
   const user = usuarios.find(ele => ele.id === userId);
   res.json({data: user});
 })
@@ -61,7 +61,7 @@ router.put("/:id", (req,res)=> {
 });
 
 router.delete("/:id", (req,res)=>{
-  const userId = req.params.id;
+  const userId = parseInt(req.params.id);
   const index = usuarios.findIndex(ele => ele.id === userId)
   if(index !== -1){
      usuarios.splice(index, 1);
