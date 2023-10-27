@@ -4,10 +4,9 @@ import fs from "fs";
 import { __dirname } from "../utils.js";
 import path from "path";
 const router = Router();
-const usuarios = JSON.parse(
+let usuarios = JSON.parse(
   fs.readFileSync(path.join(__dirname, "/db/usuarios.json"), "utf-8")
 );
-
 
 router.use(express.json());
 
