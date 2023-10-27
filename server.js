@@ -47,7 +47,7 @@ server.post("/api/products", (req, res) => {
   };
 
   productList.push(newProduct);
-  res.json({ message: "Product added" });
+  res.json({ message: "Producto agregado correctamente" });
 });
 
 server.put("/api/products/:pId", (req, res) => {
@@ -56,7 +56,7 @@ server.put("/api/products/:pId", (req, res) => {
   const product = productList.findIndex((ele) => ele.id === pId);
 
   if (product === -1) {
-    return res.status(404).json({ message: "Product isn't exist" });
+    return res.status(404).json({ message: "El producto no existe" });
   }
   productList[product] = {
     id: pId,
@@ -74,7 +74,7 @@ server.delete("/api/products/:productId", (req, res) => {
     productList.splice(productIndex, 1); // Eliminar el producto de la lista.
     res.json({ message: "Product deleted" });
   } else {
-    res.status(404).json({ message: "Product not found" });
+    res.status(404).json({ message: "Producto no encontrado" });
   }
 });
 
