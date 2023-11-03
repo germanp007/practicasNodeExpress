@@ -51,7 +51,7 @@ server.post("/api/products", (req, res) => {
 });
 
 server.put("/api/products/:pId", (req, res) => {
-  const pId = parseInt(req.params.pId);
+  const pId = +req.params.pId;
   const newProduct = req.body;
   const product = productList.findIndex((ele) => ele.id === pId);
 
@@ -66,7 +66,7 @@ server.put("/api/products/:pId", (req, res) => {
 });
 
 server.delete("/api/products/:productId", (req, res) => {
-  const productId = parseInt(req.params.productId);
+  const productId = +req.params.productId;
 
   const productIndex = productList.findIndex((ele) => ele.id === productId);
   // Si no queremos mutar el Array principal podriamos usar Filter pero la variable seria Let no const
