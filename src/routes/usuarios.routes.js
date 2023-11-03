@@ -11,7 +11,7 @@ let usuarios = JSON.parse(
 router.use(express.json());
 
 router.get("/", (req, res) => {
-  const limit = parseInt(req.query.limit);
+  const limit = +req.query.limit;
   if(!isNaN(limit)){
     const limitedUser = usuarios.slice(0, limit);
     res.json({data: limitedUser})
@@ -21,7 +21,7 @@ router.get("/", (req, res) => {
   }
 });
 router.get("/:id", (req,res)=>{
-  const userId = parseInt(req.params.id);
+  const userId = +req.params.id;
   const user = usuarios.find(ele => ele.id === userId);
   res.json({data: user});
 })
@@ -45,7 +45,7 @@ router.post("/", (req,res)=> {
 })
 
 router.put("/:id", (req,res)=> {
-  const uId = parseInt(req.params.id);
+  const uId = +req.params.id;
   const indexUser = usuarios.findIndex(ele => ele.id === uId);
   if(indexUser !== -1){
     const updatedUser = {
@@ -60,7 +60,7 @@ router.put("/:id", (req,res)=> {
 });
 
 router.delete("/:id", (req,res)=>{
-  const userId = parseInt(req.params.id);
+  const userId = +req.params.id;
   const index = usuarios.findIndex(ele => ele.id === userId)
   if(index !== -1){
      usuarios.splice(index, 1);
