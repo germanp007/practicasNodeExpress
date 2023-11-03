@@ -11,7 +11,7 @@ const mascotas = JSON.parse(
 // router.use(express.urlencoded({ extended: true }));
 
 router.get("/", (req, res) => {
-  const limit = parseInt(req.query.limit);
+  const limit = Number(req.query.limit);
   if (!isNaN(limit)) {
     let result;
     if (limit > mascotas.length) {
@@ -26,7 +26,7 @@ router.get("/", (req, res) => {
 });
 
 router.get("/:pid", (req, res) => {
-  let petId = parseInt(req.params.pid);
+  let petId = Number(req.params.pid);
   let pet = mascotas.find((ele) => ele.id === petId);
   if (pet) {
     res.send(data: pet);
@@ -65,7 +65,7 @@ router.post("/", uploader.single("file"), (req, res) => {
 });
 
 router.put("/:pid", (req, res) => {
-  const pid = +req.params.pid;
+  const pid = Number(req.params.pid);
   const body = req.body;
   const mascota = mascotas.findIndex((ele) => ele.id === pid);
   if (mascota !== -1) {
@@ -85,7 +85,7 @@ router.put("/:pid", (req, res) => {
 });
 
 router.delete("/:pid", (req, res) => {
-  const pid = parseInt(req.params.pid);
+  const pid = Number(req.params.pid);
   const mascota = mascotas.findIndex((ele) => ele.id === pid);
 
   if (mascota !== -1) {
