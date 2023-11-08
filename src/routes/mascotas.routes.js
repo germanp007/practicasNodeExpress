@@ -11,7 +11,7 @@ const mascotas = JSON.parse(
 // router.use(express.urlencoded({ extended: true }));
 
 router.get("/", (req, res) => {
-  const limit = Number(req.query.limit);
+  const limit = parseInt(req.query.limit);
   if (!isNaN(limit)) {
     let result;
     if (limit > mascotas.length) {
@@ -26,7 +26,7 @@ router.get("/", (req, res) => {
 });
 
 router.get("/:pid", (req, res) => {
-  let petId = Number(req.params.pid);
+  let petId = parseInt(req.params.pid);
   let pet = mascotas.find((ele) => ele.id === petId);
   if (pet) {
     res.send(data: pet);
