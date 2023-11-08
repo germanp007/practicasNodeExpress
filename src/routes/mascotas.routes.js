@@ -65,7 +65,7 @@ router.post("/", uploader.single("file"), (req, res) => {
 });
 
 router.put("/:pid", (req, res) => {
-  const pid = Number(req.params.pid);
+  const pid = parseInt(req.params.pid);
   const body = req.body;
   const mascota = mascotas.findIndex((ele) => ele.id === pid);
   if (mascota !== -1) {
@@ -85,7 +85,7 @@ router.put("/:pid", (req, res) => {
 });
 
 router.delete("/:pid", (req, res) => {
-  const pid = Number(req.params.pid);
+  const pid = parseInt(req.params.pid);
   const mascota = mascotas.findIndex((ele) => ele.id === pid);
 
   if (mascota !== -1) {
