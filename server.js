@@ -28,7 +28,7 @@ server.post("/api/products", (req, res) => {
     !stock ||
     !category
   ) {
-    res.json({message: 'Debe ingresar todos los campos'});
+    res.json({message: 'Error! Debe ingresar todos los campos'});
   }
   let images = [];
   if (thumbnails) {
@@ -66,7 +66,7 @@ server.put("/api/products/:pId", (req, res) => {
 });
 
 server.delete("/api/products/:productId", (req, res) => {
-  const productId = +req.params.productId;
+  const productId = parseInt(req.params.productId);
 
   const productIndex = productList.findIndex((ele) => ele.id === productId);
   // Si no queremos mutar el Array principal podriamos usar Filter pero la variable seria Let no const
