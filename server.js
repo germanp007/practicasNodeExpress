@@ -5,9 +5,9 @@ const PORT = 8080;
 let productList = [];
 
 server.use(express.json());
-app.use(express.static(path.join(__dirname, "/public")));
+app.use(express.static(path.join(__dirname, "/public"))); // Para usar como ruta raiz en este ejemplo sera /public
 server.get("/api/products", (req, res) => {
-  res.json({ data: productList });
+  res.json({ data: productList, message: "Acceso exitoso a los datos" });
 });
 server.get("/api/products/:id", (req, res) => {
   const ID = parseint(req.params.id);
