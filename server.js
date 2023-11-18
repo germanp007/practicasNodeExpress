@@ -51,7 +51,7 @@ server.post("/api/products", (req, res) => {
 });
 
 server.put("/api/products/:pId", (req, res) => {
-  const pId = +req.params.pId;
+  const pId = parseInt(req.params.pId);
   const newProduct = req.body;
   const product = productList.findIndex((ele) => ele.id === pId);
 
