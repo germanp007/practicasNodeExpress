@@ -9,9 +9,9 @@ app.listen(8080, () => {
   console.log("Server is running");
 });
 
-app.use(express.static(path.join(__dirname, "/public")));
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+app.use(express.static(path.join(__dirname, "/public"))); // Para agregar ruta dinamica
+app.use(express.json()); // Para leer formato JSON entrantes 
+app.use(express.urlencoded({ extended: true })); // Para  analizar el cuerpo de las solicitudes con datos de formulario
 
 app.use("/api/mascotas", petRouter);
 app.use("/api/usuarios", usersRouter);
