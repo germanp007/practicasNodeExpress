@@ -61,5 +61,12 @@
     "age": "9",
     "type": "tortuga",
     "image": ""
+  },
+  {
+    "id": 11,
+    "name": "violeta",
+    "age": "3",
+    "type": "perro",
+    "image": "viole-descarga.jpg"
   }
 ]
