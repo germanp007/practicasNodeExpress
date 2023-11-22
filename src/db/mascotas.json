@@ -47,5 +47,12 @@
     "age": "1",
     "type": "perro",
     "image": "rosalia-descarga.jpg"
+  },
+   {
+    "id": 9,
+    "name": "tadeo",
+    "age": "1",
+    "type": "perro",
+    "image": "tadeo-descarga.jpg"
   }
 ]
