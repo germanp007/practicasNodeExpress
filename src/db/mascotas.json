@@ -54,5 +54,12 @@
     "age": "1",
     "type": "perro",
     "image": "tadeo-descarga.jpg"
+  },
+  {
+    "id": 10,
+    "name": "mochima",
+    "age": "9",
+    "type": "tortuga",
+    "image": ""
   }
 ]
