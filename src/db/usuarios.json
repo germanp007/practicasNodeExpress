@@ -1,1 +1,17 @@
-[]
+[
+  {
+  "full_name": "Andres Silva",
+  "email": "silvapandres@gmail.com",
+  "phone": "115023507"
+  },
+  {
+    "full_name": "Natalia Anconetani",
+  "email": "natitaanco@gmail.com",
+  "phone": "1133268071"
+  },
+   {
+    "full_name": "Ramon Falcon",
+  "email": "theshadow222@gmail.com",
+  "phone": "1144587024"
+  },
+]
