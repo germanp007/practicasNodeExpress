@@ -68,5 +68,12 @@
     "age": "3",
     "type": "perro",
     "image": "viole-descarga.jpg"
+  },
+   {
+    "id": 12,
+    "name": "cancerbero",
+    "age": "2",
+    "type": "perro",
+    "image": "cancer-descarga.jpg"
   }
 ]
