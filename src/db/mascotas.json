@@ -75,5 +75,12 @@
     "age": "2",
     "type": "perro",
     "image": "cancer-descarga.jpg"
+  },
+  {
+    "id": 13,
+    "name": "tete",
+    "age": "1",
+    "type": "gato",
+    "image": "gatito-descarga.jpg"
   }
 ]
