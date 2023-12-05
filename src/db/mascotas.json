@@ -82,5 +82,12 @@
     "age": "1",
     "type": "gato",
     "image": "gatito-descarga.jpg"
+  },
+    {
+    "id": 14,
+    "name": "safirus",
+    "age": "1",
+    "type": "gato",
+    "image": "safi-safi.jpg"
   }
 ]
