@@ -89,5 +89,12 @@
     "age": "1",
     "type": "gato",
     "image": "safi-safi.jpg"
+  },
+    {
+    "id": 15,
+    "name": "gafa",
+    "age": "1",
+    "type": "gato",
+    "image": "gafa-descarga.jpg"
   }
 ]
