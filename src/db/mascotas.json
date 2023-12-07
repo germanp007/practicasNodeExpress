@@ -96,5 +96,12 @@
     "age": "1",
     "type": "gato",
     "image": "gafa-descarga.jpg"
+  },
+    {
+    "id": 16,
+    "name": "negrito",
+    "age": "10",
+    "type": "perro",
+    "image": "elviejito-descarga.jpg"
   }
 ]
