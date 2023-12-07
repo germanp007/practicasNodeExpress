@@ -103,5 +103,12 @@
     "age": "10",
     "type": "perro",
     "image": "elviejito-descarga.jpg"
+  },
+    {
+    "id": 17,
+    "name": "canela",
+    "age": "1",
+    "type": "perro",
+    "image": "312rf3523r.jpg"
   }
 ]
