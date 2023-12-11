@@ -110,5 +110,12 @@
     "age": "1",
     "type": "perro",
     "image": "312rf3523r.jpg"
+  },
+   {
+    "id": 18,
+    "name": "chadmuska",
+    "age": "2",
+    "type": "perro",
+    "image": "chadmuska-descarga.jpg"
   }
 ]
