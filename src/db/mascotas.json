@@ -117,5 +117,12 @@
     "age": "2",
     "type": "perro",
     "image": "chadmuska-descarga.jpg"
+  },
+  {
+    "id": 19,
+    "name": "chitara",
+    "age": "2",
+    "type": "gato",
+    "image": "chitara-descarga.jpg"
   }
 ]
