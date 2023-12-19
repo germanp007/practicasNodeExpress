@@ -124,5 +124,12 @@
     "age": "2",
     "type": "gato",
     "image": "chitara-descarga.jpg"
+  },
+  {
+    "id": 20,
+    "name": "tonino",
+    "age": "1",
+    "type": "pez",
+    "image": "tonino-descarga.jpg"
   }
 ]
