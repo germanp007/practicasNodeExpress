@@ -138,5 +138,12 @@
     "age": "1",
     "type": "perro",
     "image": "milei-descarga.jpg"
+  },
+  {
+    "id": 22,
+    "name": "donatelo",
+    "age": "5",
+    "type": "tortuga",
+    "image": "donatelo-descarga.jpg"
   }
 ]
