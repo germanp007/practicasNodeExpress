@@ -131,5 +131,12 @@
     "age": "1",
     "type": "pez",
     "image": "tonino-descarga.jpg"
+  },
+  {
+    "id": 21,
+    "name": "milei",
+    "age": "1",
+    "type": "perro",
+    "image": "milei-descarga.jpg"
   }
 ]
