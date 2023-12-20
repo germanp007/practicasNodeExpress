@@ -145,5 +145,12 @@
     "age": "5",
     "type": "tortuga",
     "image": "donatelo-descarga.jpg"
+  },
+   {
+    "id": 23,
+    "name": "leonardo",
+    "age": "15",
+    "type": "tortuga",
+    "image": "leonardo-descarga.jpg"
   }
 ]
