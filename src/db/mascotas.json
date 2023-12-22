@@ -194,5 +194,12 @@
     "age": "2",
     "type": "hamster",
     "image": "mochima-descarga.jpg"
+  },
+   {
+    "id": 30,
+    "name": "ralph",
+    "age": "2",
+    "type": "perro",
+    "image": "perro-descarga.jpg"
   }
 ]
