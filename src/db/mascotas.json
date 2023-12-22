@@ -200,6 +200,13 @@
     "name": "ralph",
     "age": "2",
     "type": "perro",
-    "image": "perro-descarga.jpg"
+    "image": "ralph-descarga.jpg"
+  },
+   {
+    "id": 31,
+    "name": "sofia",
+    "age": "3",
+    "type": "gato",
+    "image": "sofi-descarga.jpg"
   }
 ]
