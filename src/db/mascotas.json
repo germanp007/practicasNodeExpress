@@ -180,5 +180,12 @@
     "age": "2",
     "type": "perro",
     "image": "moro-descarga.jpg"
+  },
+   {
+    "id": 28,
+    "name": "tato",
+    "age": "4",
+    "type": "perro",
+    "image": "tato-descarga.jpg"
   }
 ]
