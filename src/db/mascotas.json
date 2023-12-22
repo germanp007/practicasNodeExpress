@@ -187,5 +187,12 @@
     "age": "4",
     "type": "perro",
     "image": "tato-descarga.jpg"
+  },
+   {
+    "id": 29,
+    "name": "mochima",
+    "age": "2",
+    "type": "hamster",
+    "image": "mochima-descarga.jpg"
   }
 ]
