@@ -173,5 +173,12 @@
     "age": "1",
     "type": "hamster",
     "image": "splinter-descarga.jpg"
+  },
+   {
+    "id": 27,
+    "name": "morocha",
+    "age": "2",
+    "type": "perro",
+    "image": "moro-descarga.jpg"
   }
 ]
