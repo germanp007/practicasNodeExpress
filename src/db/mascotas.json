@@ -166,5 +166,12 @@
     "age": "15",
     "type": "tortuga",
     "image": "donatelo-descarga.jpg"
+  },
+   {
+    "id": 26,
+    "name": "splinter",
+    "age": "1",
+    "type": "hamster",
+    "image": "splinter-descarga.jpg"
   }
 ]
