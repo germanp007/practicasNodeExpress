@@ -208,5 +208,12 @@
     "age": "3",
     "type": "gato",
     "image": "sofi-descarga.jpg"
+  },
+  {
+    "id":32,
+    "name":"sultan",
+    "age":"1",
+    "type":"perro",
+    "image":"sultan-descarga.jpg"
   }
 ]
