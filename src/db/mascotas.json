@@ -215,5 +215,12 @@
     "age":"1",
     "type":"perro",
     "image":"sultan-descarga.jpg"
+  },
+  {
+    "id":33
+    "name":"totuma",
+    "age":"2",
+    "type":"gato",
+    "image":"totuma.jpg"
   }
 ]
