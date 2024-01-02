@@ -236,5 +236,12 @@
     "age":"1",
     "type":"perro",
     "image":"anastasia-descarga.jpg"
+  },
+  {
+    "id":36,
+    "name":"lola",
+    "age":"1",
+    "type":"loro",
+    "image":"lorito-descarga.jpg"
   }
 ]
