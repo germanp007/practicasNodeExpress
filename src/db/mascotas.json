@@ -243,5 +243,12 @@
     "age":"1",
     "type":"loro",
     "image":"lorito-descarga.jpg"
+  },
+  {
+    "id":37,
+    "name":"conan",
+    "age":"4",
+    "type":"perro",
+    "image":"conan-descarga.jpg"
   }
 ]
