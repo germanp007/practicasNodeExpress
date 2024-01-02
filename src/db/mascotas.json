@@ -217,10 +217,17 @@
     "image":"sultan-descarga.jpg"
   },
   {
-    "id":33
+    "id":33,
     "name":"totuma",
     "age":"2",
     "type":"gato",
     "image":"totuma.jpg"
+  },
+  {
+    "id":34,
+    "name":"mario",
+    "age":"2",
+    "type":"gato",
+    "image":"mariocat.jpg"
   }
 ]
