@@ -229,5 +229,12 @@
     "age":"2",
     "type":"gato",
     "image":"mariocat.jpg"
+  },
+  {
+    "id":35,
+    "name":"anastasia",
+    "age":"1",
+    "type":"perro",
+    "image":"anastasia-descarga.jpg"
   }
 ]
