@@ -250,5 +250,12 @@
     "age":"4",
     "type":"perro",
     "image":"conan-descarga.jpg"
+  },
+  {
+    "id":38,
+    "name":"lazaro",
+    "age":"12",
+    "type":"perro",
+    "image":"lazaro-descarga.jpg"
   }
 ]
