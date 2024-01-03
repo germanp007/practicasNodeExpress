@@ -264,5 +264,12 @@
     "age":"10",
     "type":"perro",
     "image":"neron-descarga.jpg"
+  },
+  {
+    "id":40,
+    "name":"canuto",
+    "age":"2",
+    "type":"perro",
+    "image":"canuto-descarga.jpg"
   }
 ]
