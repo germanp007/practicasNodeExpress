@@ -278,5 +278,12 @@
     "age":"2",
     "type":"perro",
     "image":"dilan-descarga.jpg"
+  },
+  {
+    "id":42,
+    "name":"rasputin",
+    "age":"2",
+    "type":"perro",
+    "image":"rasputin-descarga.jpg"
   }
 ]
