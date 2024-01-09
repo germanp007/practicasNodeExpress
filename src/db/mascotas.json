@@ -285,5 +285,12 @@
     "age":"2",
     "type":"perro",
     "image":"rasputin-descarga.jpg"
+  },
+  {
+    "id":43,
+    "name":"firulais",
+    "age":"12",
+    "type":"perro",
+    "image":"firu-descarga.jpg"
   }
 ]
