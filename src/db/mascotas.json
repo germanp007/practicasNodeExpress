@@ -299,5 +299,12 @@
     "age":"1",
     "type":"gato",
     "image":"lilamichu-descarga.jpg"
+  },
+  {
+    "id":44,
+    "name":"cleopatra",
+    "age":"1",
+    "type":"gato",
+    "image":"cleopatra-descarga.jpg"
   }
 ]
