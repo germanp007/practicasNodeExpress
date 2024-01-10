@@ -313,5 +313,12 @@
     "age":"4",
     "type":"gato",
     "image":"gaia-descarga.jpg"
+  },
+  {
+    "id":46,
+    "name":"chavo",
+    "age":"4",
+    "type":"perro",
+    "image":"chavo-descarga.jpg"
   }
 ]
