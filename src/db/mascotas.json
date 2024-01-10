@@ -306,5 +306,12 @@
     "age":"1",
     "type":"gato",
     "image":"cleopatra-descarga.jpg"
+  },
+  {
+    "id":45,
+    "name":"gaia",
+    "age":"4",
+    "type":"gato",
+    "image":"gaia-descarga.jpg"
   }
 ]
