@@ -334,5 +334,12 @@
     "age":"8",
     "type":"perro",
     "image":"fifi-descarga.jpg"
+  },
+  {
+    "id":49,
+    "name":"sofia",
+    "age":"1",
+    "type":"gato",
+    "image":"sofia-descarga.jpg"
   }
 ]
