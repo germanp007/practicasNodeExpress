@@ -341,5 +341,12 @@
     "age":"1",
     "type":"gato",
     "image":"sofia-descarga.jpg"
+  },
+  {
+    "id":50,
+    "name":"ralf",
+    "age":"3",
+    "type":"perro",
+    "image":"ralf-descarga.jpg"
   }
 ]
