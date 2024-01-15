@@ -355,5 +355,12 @@
     "age":"3",
     "type":"gato",
     "image":"tito-descarga.jpg"
+  },
+  {
+    "id":52,
+    "name":"chuleta",
+    "age":"3",
+    "type":"perro",
+    "image":"chuleta-descarga.jpg"
   }
 ]
