@@ -376,5 +376,12 @@
     "age":"1",
     "type":"hanster",
     "image":"huevo-descarga.jpg"
+  },
+  {
+    "id":55,
+    "name":"estrella",
+    "age":"2",
+    "type":"perro",
+    "image":"estrella-descarga.jpg"
   }
 ]
