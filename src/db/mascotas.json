@@ -383,5 +383,12 @@
     "age":"2",
     "type":"perro",
     "image":"estrella-descarga.jpg"
+  },
+  {
+    "id":56,
+    "name":"pegaso",
+    "age":"2",
+    "type":"perro",
+    "image":"pegaso-descarga.jpg"
   }
 ]
