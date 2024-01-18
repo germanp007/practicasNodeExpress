@@ -390,5 +390,12 @@
     "age":"2",
     "type":"perro",
     "image":"pegaso-descarga.jpg"
+  },
+  {
+    "id":57,
+    "name":"rissotto",
+    "age":"2",
+    "type":"gato",
+    "image":"rissotto-descarga.jpg"
   }
 ]
