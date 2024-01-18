@@ -397,5 +397,12 @@
     "age":"2",
     "type":"gato",
     "image":"rissotto-descarga.jpg"
+  },
+  {
+    "id":58,
+    "name":"albondiga",
+    "age":"8",
+    "type":"perro",
+    "image":"albondiga-descarga.jpg"
   }
 ]
