@@ -404,5 +404,12 @@
     "age":"8",
     "type":"perro",
     "image":"albondiga-descarga.jpg"
+  },
+  {
+    "id":59,
+    "name":"leia",
+    "age":"1",
+    "type":"gato",
+    "image":"leia-descarga.jpg"
   }
 ]
