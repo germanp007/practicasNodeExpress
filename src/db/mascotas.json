@@ -411,5 +411,12 @@
     "age":"1",
     "type":"gato",
     "image":"leia-descarga.jpg"
+  },
+  {
+    "id":60,
+    "name":"luna",
+    "age":"2",
+    "type":"gato",
+    "image":"luna-descarga.jpg"
   }
 ]
