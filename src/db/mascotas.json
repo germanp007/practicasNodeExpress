@@ -418,5 +418,12 @@
     "age":"2",
     "type":"gato",
     "image":"luna-descarga.jpg"
+  },
+  {
+    "id":61,
+    "name":"carton",
+    "age":"1",
+    "type":"perro",
+    "image":"carton-descarga.jpg"
   }
 ]
