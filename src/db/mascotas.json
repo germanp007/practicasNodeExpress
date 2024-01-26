@@ -425,5 +425,12 @@
     "age":"1",
     "type":"perro",
     "image":"carton-descarga.jpg"
+  },
+  {
+    "id":62,
+    "name":"chatran",
+    "age":"1",
+    "type":"gato",
+    "image":"chatran-descarga.jpg"
   }
 ]
