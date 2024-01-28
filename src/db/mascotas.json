@@ -446,5 +446,12 @@
     "age":"1",
     "type":"gato",
     "image":"clarita-descarga.jpg"
+  },
+  {
+    "id":65,
+    "name":"panchito",
+    "age":"1",
+    "type":"perro",
+    "image":"panchito-descarga.jpg"
   }
 ]
