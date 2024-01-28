@@ -453,5 +453,12 @@
     "age":"1",
     "type":"perro",
     "image":"panchito-descarga.jpg"
+  },
+  {
+    "id":66,
+    "name":"filomena",
+    "age":"1",
+    "type":"loro",
+    "image":"filomena-descarga.jpg"
   }
 ]
