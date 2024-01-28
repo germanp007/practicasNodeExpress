@@ -460,5 +460,12 @@
     "age":"1",
     "type":"loro",
     "image":"filomena-descarga.jpg"
+  },
+  {
+    "id":67,
+    "name":"conchita",
+    "age":"1",
+    "type":"gato",
+    "image":"conchita-descarga.jpg"
   }
 ]
