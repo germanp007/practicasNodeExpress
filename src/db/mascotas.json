@@ -432,5 +432,12 @@
     "age":"1",
     "type":"gato",
     "image":"chatran-descarga.jpg"
+  },
+  {
+    "id":63,
+    "name":"ramiro",
+    "age":"1",
+    "type":"hamster",
+    "image":"ramiro-descarga.jpg"
   }
 ]
