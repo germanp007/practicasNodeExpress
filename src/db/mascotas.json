@@ -439,5 +439,12 @@
     "age":"1",
     "type":"hamster",
     "image":"ramiro-descarga.jpg"
+  },
+  {
+    "id":64,
+    "name":"clarita",
+    "age":"1",
+    "type":"gato",
+    "image":"clarita-descarga.jpg"
   }
 ]
