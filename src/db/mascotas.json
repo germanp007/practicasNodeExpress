@@ -467,5 +467,12 @@
     "age":"1",
     "type":"gato",
     "image":"conchita-descarga.jpg"
+  },
+  {
+    "id":68,
+    "name":"carlitos",
+    "age":"1",
+    "type":"mono",
+    "image":"carlitos-descarga.jpg"
   }
 ]
