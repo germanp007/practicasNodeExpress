@@ -474,5 +474,12 @@
     "age":"1",
     "type":"mono",
     "image":"carlitos-descarga.jpg"
+  },
+  {
+    "id":69,
+    "name":"chalalo",
+    "age":"1",
+    "type":"perro",
+    "image":"chalalo-descarga.jpg"
   }
 ]
