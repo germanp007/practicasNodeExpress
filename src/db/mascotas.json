@@ -488,5 +488,12 @@
     "age":"4",
     "type":"perro",
     "image":"saturno-descarga.jpg"
+  },
+  {
+    "id":71,
+    "name":"tamarindo",
+    "age":"2",
+    "type":"gato",
+    "image":"tamarindo-descarga.jpg"
   }
 ]
