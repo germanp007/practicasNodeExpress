@@ -530,5 +530,12 @@
     "age":"2",
     "type":"perro",
     "image":"tamarindo-descarga.jpg"
+  },
+  {
+    "id":77,
+    "name":"burbujas",
+    "age":"2",
+    "type":"mono",
+    "image":"burbujas-descarga.jpg"
   }
 ]
