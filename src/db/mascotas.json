@@ -509,5 +509,12 @@
     "age":"1",
     "type":"pez",
     "image":"calamardo-descarga.jpg"
+  },
+  {
+    "id":74,
+    "name":"dalila",
+    "age":"1",
+    "type":"gato",
+    "image":"dalila-descarga.jpg"
   }
 ]
