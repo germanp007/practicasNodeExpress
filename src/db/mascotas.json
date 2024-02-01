@@ -501,6 +501,13 @@
     "name":"musolini",
     "age":"1",
     "type":"pez",
-    "image":"tamarindo-descarga.jpg"
+    "image":"muso-descarga.jpg"
+  },
+  {
+    "id":73,
+    "name":"calamardo",
+    "age":"1",
+    "type":"pez",
+    "image":"calamardo-descarga.jpg"
   }
 ]
