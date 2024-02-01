@@ -516,5 +516,12 @@
     "age":"1",
     "type":"gato",
     "image":"dalila-descarga.jpg"
+  },
+  {
+    "id":75,
+    "name":"dorotea",
+    "age":"1",
+    "type":"cerdo",
+    "image":"dorotea-descarga.jpg"
   }
 ]
