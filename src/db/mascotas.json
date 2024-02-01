@@ -544,5 +544,12 @@
     "age":"1",
     "type":"gato",
     "image":"falopa-descarga.jpg"
+  },
+  {
+    "id":79,
+    "name":"fred",
+    "age":"2",
+    "type":"perro",
+    "image":"fred-descarga.jpg"
   }
 ]
