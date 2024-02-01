@@ -551,5 +551,12 @@
     "age":"2",
     "type":"perro",
     "image":"fred-descarga.jpg"
+  },
+  {
+    "id":80,
+    "name":"pluton",
+    "age":"5",
+    "type":"gato",
+    "image":"pluton-descarga.jpg"
   }
 ]
