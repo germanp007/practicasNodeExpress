@@ -523,5 +523,12 @@
     "age":"1",
     "type":"cerdo",
     "image":"dorotea-descarga.jpg"
+  },
+  {
+    "id":76,
+    "name":"isabel",
+    "age":"2",
+    "type":"perro",
+    "image":"tamarindo-descarga.jpg"
   }
 ]
