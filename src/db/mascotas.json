@@ -572,5 +572,12 @@
     "age":"2",
     "type":"perro",
     "image":"coquito-descarga.jpg"
+  },
+  {
+    "id":83,
+    "name":"popo",
+    "age":"1",
+    "type":"gato",
+    "image":"popo-descarga.jpg"
   }
 ]
