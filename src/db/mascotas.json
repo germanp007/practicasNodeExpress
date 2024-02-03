@@ -579,5 +579,12 @@
     "age":"1",
     "type":"gato",
     "image":"popo-descarga.jpg"
+  },
+  {
+    "id":84,
+    "name":"fiona",
+    "age":"1",
+    "type":"perro",
+    "image":"fiona-descarga.jpg"
   }
 ]
