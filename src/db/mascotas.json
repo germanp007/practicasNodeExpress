@@ -558,5 +558,12 @@
     "age":"5",
     "type":"gato",
     "image":"pluton-descarga.jpg"
+  },
+  {
+    "id":81,
+    "name":"chuvaca",
+    "age":"10",
+    "type":"perro",
+    "image":"chuvaca-descarga.jpg"
   }
 ]
