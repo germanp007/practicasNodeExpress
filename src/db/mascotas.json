@@ -607,5 +607,12 @@
     "age":"1",
     "type":"perro",
     "image":"danco-descarga.jpg"
+  },
+  {
+    "id": 88,
+    "name":"laika",
+    "age":"4",
+    "type":"perro",
+    "image":"laika-descarga.jpg"
   }
 ]
