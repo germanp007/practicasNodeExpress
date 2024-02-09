@@ -621,5 +621,12 @@
     "age":"2",
     "type":"gato",
     "image":"tony-descarga.png"
+  },
+  {
+    "id": 90,
+    "name":"piggy",
+    "age":"2",
+    "type":"cerdo",
+    "image":"piggy-descarga.png"
   }
 ]
