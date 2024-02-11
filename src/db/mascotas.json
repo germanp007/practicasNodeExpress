@@ -658,5 +658,11 @@
     "age":"2",
     "type":"perro",
     "image":"brando-descarga.jpg
+  },{
+    "id":96,
+    "name":"lucca",
+    "age":"2",
+    "type":"perro",
+    "image":"lucca-descarga.png
   }
 ]
