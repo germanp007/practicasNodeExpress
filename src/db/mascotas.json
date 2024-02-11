@@ -646,5 +646,11 @@
     "age":"1",
     "type":"perro",
     "image":"coqui-descarga.jpg
+  },{
+    "id":94,
+    "name":"popote",
+    "age":"1",
+    "type":"gato",
+    "image":"popote-descarga.jpg
   }
 ]
