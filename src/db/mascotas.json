@@ -628,5 +628,11 @@
     "age":"2",
     "type":"cerdo",
     "image":"piggy-descarga.png"
+  },{
+    "id":91,
+    "name":"boby",
+    "age":"2",
+    "type":"perro",
+    "image":"boby-descarga.jpg
   }
 ]
