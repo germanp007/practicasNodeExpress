@@ -652,5 +652,11 @@
     "age":"1",
     "type":"gato",
     "image":"popote-descarga.jpg
+  },{
+    "id":95,
+    "name":"brando",
+    "age":"2",
+    "type":"perro",
+    "image":"brando-descarga.jpg
   }
 ]
