@@ -670,5 +670,11 @@
     "age":"2",
     "type":"perro",
     "image":"rolito-descarga.png
+  }{
+    "id":98,
+    "name":"luci",
+    "age":"2",
+    "type":"gato",
+    "image":"luci-descarga.png
   }
 ]
