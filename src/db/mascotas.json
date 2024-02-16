@@ -685,5 +685,12 @@
     "age":"2",
     "type":"perro",
     "image":"rintintin-descarga.png
+  },
+  {
+    "id":100,
+    "name":"camote",
+    "age":"1",
+    "type":"iguana",
+    "image":"camote-descarga.jpg
   }
 ]
