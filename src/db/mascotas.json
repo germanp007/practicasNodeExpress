@@ -664,17 +664,26 @@
     "age":"2",
     "type":"perro",
     "image":"lucca-descarga.png
-  }{
+  },
+  {
     "id":97,
     "name":"rolito",
     "age":"2",
     "type":"perro",
     "image":"rolito-descarga.png
-  }{
+  },
+  {
     "id":98,
     "name":"luci",
     "age":"2",
     "type":"gato",
     "image":"luci-descarga.png
+  },
+  {
+    "id":99,
+    "name":"rintintin",
+    "age":"2",
+    "type":"perro",
+    "image":"rintintin-descarga.png
   }
 ]
