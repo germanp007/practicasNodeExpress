@@ -633,31 +633,31 @@
     "name":"boby",
     "age":"2",
     "type":"perro",
-    "image":"boby-descarga.jpg
+    "image":"boby-descarga.jpg"
   },{
     "id":92,
     "name":"rolan",
     "age":"2",
     "type":"perro",
-    "image":"rolan-descarga.jpg
+    "image":"rolan-descarga.jpg"
   },{
     "id":93,
     "name":"coqui",
     "age":"1",
     "type":"perro",
-    "image":"coqui-descarga.jpg
+    "image":"coqui-descarga.jpg"
   },{
     "id":94,
     "name":"popote",
     "age":"1",
     "type":"gato",
-    "image":"popote-descarga.jpg
+    "image":"popote-descarga.jpg"
   },{
     "id":95,
     "name":"brando",
     "age":"2",
     "type":"perro",
-    "image":"brando-descarga.jpg
+    "image":"brando-descarga.jpg"
   },{
     "id":96,
     "name":"lucca",
