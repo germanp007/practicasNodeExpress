@@ -663,34 +663,41 @@
     "name":"lucca",
     "age":"2",
     "type":"perro",
-    "image":"lucca-descarga.png
+    "image":"lucca-descarga.png"
   },
   {
     "id":97,
     "name":"rolito",
     "age":"2",
     "type":"perro",
-    "image":"rolito-descarga.png
+    "image":"rolito-descarga.png"
   },
   {
     "id":98,
     "name":"luci",
     "age":"2",
     "type":"gato",
-    "image":"luci-descarga.png
+    "image":"luci-descarga.png"
   },
   {
     "id":99,
     "name":"rintintin",
     "age":"2",
     "type":"perro",
-    "image":"rintintin-descarga.png
+    "image":"rintintin-descarga.png"
   },
   {
     "id":100,
     "name":"camote",
     "age":"1",
     "type":"iguana",
-    "image":"camote-descarga.jpg
+    "image":"camote-descarga.jpg"
+  },
+    {
+  "id":101,
+    "name":"stuard",
+    "age":"1",
+    "type":"hamster",
+    "image":"stuard-descarga.jpg"
   }
 ]
