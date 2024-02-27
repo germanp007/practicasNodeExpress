@@ -699,5 +699,12 @@
     "age":"1",
     "type":"hamster",
     "image":"stuard-descarga.jpg"
+  },
+   {
+  "id":102,
+    "name":"amatista",
+    "age":"4",
+    "type":"perro",
+    "image":"amatista-descarga.jpg"
   }
 ]
