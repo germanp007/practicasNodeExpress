@@ -727,5 +727,12 @@
     "age":"2",
     "type":"gato",
     "image":"nilo-descarga.jpg"
+  },
+   {
+  "id":106,
+    "name":"canela",
+    "age":"1",
+    "type":"perro",
+    "image":"canela-descarga.webp"
   }
 ]
