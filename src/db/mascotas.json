@@ -761,5 +761,12 @@
     "age":"2",
     "type":"perro",
     "image":"coquito-descarga.jpg"
+  },
+  {
+  "id":111,
+    "Name":"chanchito",
+    "age":"2",
+    "type":"cerdo",
+    "image":"chanchito-descarga.webp"
   }
 ]
