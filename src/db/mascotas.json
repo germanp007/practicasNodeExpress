@@ -768,5 +768,12 @@
     "age":"2",
     "type":"cerdo",
     "image":"chanchito-descarga.webp"
-  }
+  },
+    {
+  "id":112,
+    "Name":"chayo",
+    "age":"2",
+    "type":"gato",
+    "image":"chayo-descarga.webp"
+    }
 ]
