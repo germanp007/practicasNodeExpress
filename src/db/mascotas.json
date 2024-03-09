@@ -825,5 +825,12 @@
     "age":"5",
     "type":"gato",
     "image":"botija-descarga.png"
-    }    
+    },
+ {
+  "id":119,
+    "Name":"Teresa",
+    "age":"6",
+    "type":"perro",
+    "image":"teresa-descarga.webp"
+    }   
 ] 
