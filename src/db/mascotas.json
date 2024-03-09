@@ -810,6 +810,13 @@
     "age":"2",
     "type":"gato",
     "image":"cuco-descarga.webp"
-    }   
+    },
   
+{
+  "id":117,
+    "Name":"chayan",
+    "age":"2",
+    "type":"perro",
+    "image":"chayan-descarga.webp"
+    }    
 ] 
