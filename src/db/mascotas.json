@@ -796,6 +796,13 @@
     "age":"2",
     "type":"perro",
     "image":"zeus-descarga.jpg"
+    },
+ {
+  "id":115,
+    "Name":"tano",
+    "age":"5",
+    "type":"perro",
+    "image":"tano-descarga.png"
     }   
   
 ] 
