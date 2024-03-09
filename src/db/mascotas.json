@@ -832,5 +832,12 @@
     "age":"6",
     "type":"perro",
     "image":"teresa-descarga.webp"
+    },
+ {
+  "id":120,
+    "Name":"mino",
+    "age":"1",
+    "type":"gato",
+    "image":"mino-descarga.jpg"
     }   
 ] 
