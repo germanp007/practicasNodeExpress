@@ -818,5 +818,12 @@
     "age":"2",
     "type":"perro",
     "image":"chayan-descarga.webp"
+    },
+{
+  "id":118,
+    "Name":"botija",
+    "age":"5",
+    "type":"gato",
+    "image":"botija-descarga.png"
     }    
 ] 
