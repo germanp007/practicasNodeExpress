@@ -803,6 +803,13 @@
     "age":"5",
     "type":"perro",
     "image":"tano-descarga.png"
+    },
+ {
+  "id":116,
+    "Name":"cuco",
+    "age":"2",
+    "type":"gato",
+    "image":"cuco-descarga.webp"
     }   
   
 ] 
