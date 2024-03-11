@@ -839,5 +839,13 @@
     "age":"1",
     "type":"gato",
     "image":"mino-descarga.jpg"
+    },
+  {
+  
+  "id":121,
+    "Name":"loki",
+    "age":"1",
+    "type":"perro",
+    "image":"loki-descarga.png"
     }   
 ] 
