@@ -877,6 +877,13 @@
     "age":"1",
     "type":"perro",
     "image":"rosh-descarga.jpg"
+  },
+  {
+  "id":126,
+    "Name":"tirano",
+    "age":"2",
+    "type":"perro",
+    "image":"tirano-descarga.jpg"
   }
   
   
