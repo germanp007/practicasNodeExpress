@@ -912,6 +912,13 @@
     "age":"1",
     "type":"gato",
     "image":"yayo-descarga.png"
+  },
+  {
+  "id":131,
+    "Name":"Camilo",
+    "age":"1",
+    "type":"perro",
+    "image":"camilo-descarga.jpg"
   }
   
   
