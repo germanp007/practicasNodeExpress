@@ -926,6 +926,13 @@
     "age":"5",
     "type":"perro",
     "image":"vitto-descarga.jpg"
+  },
+   {
+  "id":133,
+    "Name":"Catalino",
+    "age":"2",
+    "type":"perro",
+    "image":"catalino-descarga.webp"
   }
   
   
