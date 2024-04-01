@@ -971,7 +971,15 @@
     "age":"1",
     "type":"gato",
     "image":"kala-descarga.png"
+   },
+  {
+  "id":139,
+    "Name":"Tato",
+    "age":"2",
+    "type":"perro",
+    "image":"tato-descarga.webp"
    }
+  
   
   
   
