@@ -992,8 +992,16 @@
     "age":"1",
     "type":"gato",
     "image":"dalila-descarga.jpg"
-    }
+    }, 
+      {
+  "id":142,
+    "Name":"Kasandra",
+    "age":"1",
+    "type":"gato",
+    "image":"kasandra-descarga.webp"
+    }, 
   
+ 
   
   
   
