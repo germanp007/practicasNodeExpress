@@ -1005,8 +1005,15 @@
     "Name":"kraken",
     "age":"1",
     "type":"pulpo",
-    "image":"kraken-descarga.pngp"
-    } 
+    "image":"kraken-descarga.png"
+    },
+  {
+  "id":144,
+    "Name":"Casimiro",
+    "age":"2",
+    "type":"perro",
+    "image":"casimiro-descarga.jpg"
+    }, 
   
  
   
