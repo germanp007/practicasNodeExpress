@@ -1014,6 +1014,13 @@
     "type":"perro",
     "image":"casimiro-descarga.jpg"
     }, 
+    {
+  "id":145,
+    "Name":"timmy",
+    "age":"1",
+    "type":"perro",
+    "image":"timmy-descarga.png"
+    }, 
   
  
   
