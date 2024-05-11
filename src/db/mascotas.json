@@ -1021,6 +1021,13 @@
     "type":"perro",
     "image":"timmy-descarga.png"
     }, 
+      {
+  "id":146,
+    "Name":"gaia",
+    "age":"1",
+    "type":"perro",
+    "image":"gaia-descarga.png"
+    }, 
   
  
   
