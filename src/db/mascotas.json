@@ -1028,6 +1028,13 @@
     "type":"perro",
     "image":"gaia-descarga.png"
     }, 
+        {
+  "id":147,
+    "Name":"serafin",
+    "age":"1",
+    "type":"gato",
+    "image":"serafin-descarga.png"
+    }
   
  
   
