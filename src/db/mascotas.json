@@ -1034,7 +1034,15 @@
     "age":"1",
     "type":"gato",
     "image":"serafin-descarga.png"
+    },
+          {
+  "id":148,
+    "Name":"Anubis",
+    "age":"1",
+    "type":"serpiente",
+    "image":"anubis-descarga.jpg"
     }
+  
   
  
   
