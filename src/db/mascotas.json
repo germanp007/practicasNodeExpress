@@ -1041,6 +1041,13 @@
     "age":"1",
     "type":"serpiente",
     "image":"anubis-descarga.jpg"
+    },
+        {
+  "id":149,
+    "Name":"Bruna",
+    "age":"3",
+    "type":"perro",
+    "image":"bruna-descarga.webp"
     }
   
   
