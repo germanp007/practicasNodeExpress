@@ -1048,6 +1048,13 @@
     "age":"3",
     "type":"perro",
     "image":"bruna-descarga.webp"
+    },
+    {
+  "id":150,
+    "Name":"Natacha",
+    "age":"2",
+    "type":"perro",
+    "image":"natacha-descarga.jpg"
     }
   
   
