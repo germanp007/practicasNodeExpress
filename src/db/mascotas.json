@@ -1055,8 +1055,16 @@
     "age":"2",
     "type":"perro",
     "image":"natacha-descarga.jpg"
-    }
+    },
   
+      {
+  "id":151,
+    "Name":"Dalila",
+    "age":"2",
+    "type":"gato",
+        "image": "dalila-descarga.png"
+
+    }
   
  
   
