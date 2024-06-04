@@ -1064,7 +1064,16 @@
     "type":"gato",
         "image": "dalila-descarga.png"
 
+    },
+     {
+  "id":152,
+    "Name":"Tato",
+    "age":"8",
+    "type":"perro",
+        "image": "tato-descarga.png"
+
     }
+  
   
  
   
