@@ -1072,6 +1072,14 @@
     "type":"perro",
         "image": "tato-descarga.png"
 
+    },
+  {
+  "id":153,
+    "Name":"Taliban",
+    "age":"3",
+    "type":"perro",
+        "image": "taliban-descarga.png"
+
     }
   
   
