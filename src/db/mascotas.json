@@ -1088,7 +1088,13 @@
     "type":"perro",
         "image": "zanson-descarga.jpg"
 
-    }
+    },{
+    "id": 155,
+    "name": "cooper",
+    "age": "2",
+    "type": "perro",
+    "image": "cooper-golden.jpg"
+  }
   
   
  
