@@ -1094,6 +1094,13 @@
     "age": "2",
     "type": "perro",
     "image": "cooper-golden.jpg"
+  },
+  {
+    "id": 156,
+    "name": "polo",
+    "age": "2",
+    "type": "perro",
+    "image": "polo-golden.png"
   }
   
   
