@@ -1101,6 +1101,13 @@
     "age": "2",
     "type": "perro",
     "image": "polo-golden.png"
+  },
+  {
+    "id": 157,
+    "name": "tulita",
+    "age": "2",
+    "type": "perro",
+    "image": "tulita-golden.png"
   }
   
   
