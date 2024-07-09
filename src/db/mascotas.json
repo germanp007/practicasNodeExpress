@@ -1108,6 +1108,13 @@
     "age": "2",
     "type": "perro",
     "image": "tulita-golden.png"
+  },
+   {
+    "id": 158,
+    "name": "popeye",
+    "age": "1",
+    "type": "perro",
+    "image": "popeye-golden.png"
   }
   
   
