@@ -1115,6 +1115,13 @@
     "age": "1",
     "type": "perro",
     "image": "popeye-golden.png"
+  },
+   {
+    "id": 159,
+    "name": "boloña",
+    "age": "1",
+    "type": "gato",
+    "image": "bolona-golden.jpg"
   }
   
   
