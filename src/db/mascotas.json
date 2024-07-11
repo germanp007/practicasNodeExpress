@@ -1122,6 +1122,13 @@
     "age": "1",
     "type": "gato",
     "image": "bolona-golden.jpg"
+  },
+   {
+    "id": 160,
+    "name": "ralf",
+    "age": "1",
+    "type": "hamster",
+    "image": "ralf-golden.jpg"
   }
   
   
