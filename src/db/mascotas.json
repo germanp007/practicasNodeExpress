@@ -1129,6 +1129,13 @@
     "age": "1",
     "type": "hamster",
     "image": "ralf-golden.jpg"
+  },
+   {
+    "id": 161,
+    "name": "apolo",
+    "age": "5",
+    "type": "perro",
+    "image": "apolo-golden.jpg"
   }
   
   
