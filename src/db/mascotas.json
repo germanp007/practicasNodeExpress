@@ -1136,6 +1136,13 @@
     "age": "5",
     "type": "perro",
     "image": "apolo-golden.jpg"
+  },
+   {
+    "id": 162,
+    "name": "lenna",
+    "age": "1",
+    "type": "gato",
+    "image": "gato-golden.jpg"
   }
   
   
