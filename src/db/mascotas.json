@@ -1143,6 +1143,13 @@
     "age": "1",
     "type": "gato",
     "image": "gato-golden.jpg"
+  },
+   {
+    "id": 163,
+    "name": "lazzi",
+    "age": "1",
+    "type": "perro",
+    "image": "lazzi-golden.png"
   }
   
   
