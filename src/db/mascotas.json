@@ -1150,6 +1150,13 @@
     "age": "1",
     "type": "perro",
     "image": "lazzi-golden.png"
+  },
+   {
+    "id": 164,
+    "name": "draco",
+    "age": "8",
+    "type": "perro",
+    "image": "draco-perro.png"
   }
   
   
