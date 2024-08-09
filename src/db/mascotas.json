@@ -1164,6 +1164,13 @@
     "age": "4",
     "type": "perro",
     "image": "zion-perro.png"
+  },
+   {
+    "id": 166,
+    "name": "nitta",
+    "age": "2",
+    "type": "gato",
+    "image": "nitta-image.png"
   }
   
   
