@@ -1171,6 +1171,13 @@
     "age": "2",
     "type": "gato",
     "image": "nitta-image.png"
+  },
+   {
+    "id": 167,
+    "name": "cango",
+    "age": "2",
+    "type": "gato",
+    "image": "cango-image.png"
   }
   
   
