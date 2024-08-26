@@ -1185,6 +1185,13 @@
     "age": "2",
     "type": "gato",
     "image": "honney-image.png"
+  },
+   {
+    "id": 169,
+    "name": "bonobon",
+    "age": "1",
+    "type": "perro",
+    "image": "bonobon-image.jpg"
   }
   
   
