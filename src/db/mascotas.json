@@ -1199,6 +1199,13 @@
     "age": "1",
     "type": "perro",
     "image": "poroto-image.webp"
+  },
+   {
+    "id": 171,
+    "name": "media luna",
+    "age": "1",
+    "type": "gato",
+    "image": "medialuna-image.webp"
   }
   
   
