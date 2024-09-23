@@ -1213,6 +1213,13 @@
     "age": "5",
     "type": "gato",
     "image": "milanga-image.webp"
+  },
+   {
+    "id": 173,
+    "name": "tabata",
+    "age": "5",
+    "type": "gato",
+    "image": "tabata-image.webp"
   }
   
   
