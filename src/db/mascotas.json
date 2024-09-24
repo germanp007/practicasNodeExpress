@@ -1220,6 +1220,13 @@
     "age": "5",
     "type": "gato",
     "image": "tabata-image.webp"
+  },
+   {
+    "id": 174,
+    "name": "puppy",
+    "age": "1",
+    "type": "perro",
+    "image": "puppy-image.webp"
   }
   
   
