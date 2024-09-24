@@ -1227,6 +1227,13 @@
     "age": "1",
     "type": "perro",
     "image": "puppy-image.webp"
+  },
+   {
+    "id": 175,
+    "name": "brownie",
+    "age": "5",
+    "type": "perro",
+    "image": "brownie-image.jpg"
   }
   
   
