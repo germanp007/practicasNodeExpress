@@ -1234,6 +1234,13 @@
     "age": "5",
     "type": "perro",
     "image": "brownie-image.jpg"
+  },
+   {
+    "id": 176,
+    "name": "avellana",
+    "age": "1",
+    "type": "gato",
+    "image": "avellana-image.jpg"
   }
   
   
